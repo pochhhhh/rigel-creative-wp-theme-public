@@ -1,0 +1,115 @@
+#vision{
+
+  height: auto;
+  width: 100vw;
+  padding:0.5rem;
+
+  p{
+
+    font-family: 'Questrial', sans-serif;
+
+  }
+
+  img{
+
+    height: 50%;
+    width: 100%;
+    margin: 0 auto;
+    //margin-bottom: 10%;
+
+  }
+
+  .big{
+
+    font-size: 1.5rem;
+    font-weight: 800;
+
+  }
+
+
+  .content-1{
+
+    height: auto;
+    background: #F9F9F9;
+    padding: 1.5rem;
+
+
+  }
+
+
+  .content-2{
+
+    height: auto;
+    padding: 1.5rem;
+    background: $offblack;
+
+    p{
+
+      color:white;
+
+    }
+
+  }
+
+  .content-3{
+
+    height: auto;
+    padding: 1.5rem;
+    background: #F9F9F9;
+
+  }
+
+}
+
+
+@media(min-width: 768px){
+
+
+  #vision{
+
+    p{
+
+      font-size: 1.6rem;
+      font-weight: 400;
+
+    }
+
+    img{
+
+      margin-top:10%;
+
+    }
+
+    .big{
+
+      font-size: 2.8rem;
+      font-weight: 800;
+
+    }
+
+
+  }
+
+  .content-1{
+
+    padding: 6rem !important;
+
+
+  }
+
+  .content-2{
+
+    padding: 6rem !important;
+
+
+  }
+
+  .content-3{
+
+    padding: 6rem !important;
+
+
+  }
+
+
+}
